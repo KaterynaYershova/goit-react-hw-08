@@ -1,23 +1,9 @@
-.userMenu {
+.wrapper {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .username {
-  margin-right: 15px;
-  color: white;
-}
-
-.logoutBtn {
-  padding: 5px 10px;
-  background-color: #f44336;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.logoutBtn:hover {
-  background-color: #d32f2f;
+  font-weight: 700;
 }

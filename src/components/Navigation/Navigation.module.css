@@ -1,14 +1,11 @@
-.navigation {
-  display: flex;
-  gap: 20px;
-}
-
 .link {
+  display: inline-block;
   text-decoration: none;
-  color: white;
-  font-size: 18px;
+  padding: 12px;
+  font-weight: 700;
+  color: #2a363b;
 }
 
 .link.active {
-  font-weight: bold;
+  color: #e84a5f;
 }
